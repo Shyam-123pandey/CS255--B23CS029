@@ -10,7 +10,7 @@
     body{
       height: 100vh;
       width: 100vw;
-      background-image: url(Lab7/images/h1.jpg);
+      background-image: url(../Lab7/images/h1.jpg);
       transition: ease-in .5s;
     }
     
@@ -28,7 +28,7 @@
     }
 
     const changebgBody = function(){
-      document.querySelector('body').style.backgroundImage=`url(Lab7/images/h${n}.jpg)`;
+      document.querySelector('body').style.backgroundImage=`url(../Lab7/images/h${n}.jpg)`;
       n=(n+1)%3;
     }
     slideshow();
